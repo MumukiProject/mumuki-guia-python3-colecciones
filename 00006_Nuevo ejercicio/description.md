@@ -1,0 +1,1 @@
+Mostrar un diccionario de instancias (o no) pero que sea atributo y lo mismo que con las listas en cuestiones de sintaxis de método vs proc/func.
