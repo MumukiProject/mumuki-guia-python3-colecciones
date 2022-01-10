@@ -1,0 +1,32 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresClass:Biblioteca
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Biblioteca
+  inspection: DeclaresMethod:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Biblioteca
+  inspection: DeclaresMethod:agregar_libro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Biblioteca
+  inspection: DeclaresComputationWithArity1:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Biblioteca
+  inspection: DeclaresComputationWithArity2:agregar_libro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresClass:Libro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
+  inspection: DeclaresMethod:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
+  inspection: DeclaresMethod:es_largo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
+  inspection: DeclaresComputationWithArity4:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
+  inspection: DeclaresComputationWithArity1:es_largo
