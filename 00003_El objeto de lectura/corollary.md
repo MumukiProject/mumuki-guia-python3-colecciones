@@ -1,0 +1,1 @@
+¡Qué bueno! Que hayamos cambiado como representamos a los libros no significó cambios en la clase `Biblioteca` y además podemos hacer cosas más interesantes. :star_struck:
