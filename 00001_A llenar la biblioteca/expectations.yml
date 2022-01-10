@@ -1,0 +1,17 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresClass:Biblioteca
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Biblioteca
+  inspection: DeclaresMethod:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Biblioteca
+  inspection: DeclaresMethod:agregar_libro
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Biblioteca
+  inspection: DeclaresComputationWithArity1:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Biblioteca
+  inspection: DeclaresComputationWithArity2:agregar_libro
