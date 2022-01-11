@@ -1,5 +1,3 @@
-#...previousSolution...#
-
 un_libro_corto = Libro("Socorro", 299, "Terror")
 segundo_libro_corto = Libro("Fundación", 300, "Ciencia ficción")
 tercer_libro_corto = Libro("Historias de cronopios y de famas", 153, "Cuento y novela")
