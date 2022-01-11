@@ -1,3 +1,4 @@
+class Test(unittest.TestCase):
 
   un_libro_corto = Libro("Socorro", 299, "Terror")
   segundo_libro_corto = Libro("Fundación", 300, "Ciencia ficción")
