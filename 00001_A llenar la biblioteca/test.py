@@ -1,5 +1,5 @@
 
-  def test_una_biblioteca_arranca_sin_libros(self):
+  def test_una_biblioteca_inicialmente_no_tiene_libros(self):
     biblioteca = Biblioteca()
     self.assertEqual(biblioteca.libros, [])
 
