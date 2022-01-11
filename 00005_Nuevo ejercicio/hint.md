@@ -1,0 +1,1 @@
+Al contrario del ejercicio anterior, en este ejercicio es necesario mapear y no filtrar. :sunglasses:

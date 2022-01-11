@@ -1,14 +1,3 @@
-Hacer un método que mappeé sobre esa lista de instancias con listas por comprensión.
+Si bien cambiamos nuestros libros para que ya no sean simplemente strings sería cómodo contar con algún mensaje que nos permita obtener solo sus títulos. Por suerte contamos con las listas por comprensión que nos pueden ayudar a resolver esta tarea. :raised_hands:
 
-class Biblioteca:
-  def __init__(self):
-    self.libros = []
-
-  def agregar_libro(self, libro):
-    self.libros.append(libro)
-
-  def libros_largos(self):
-    return [libro for libro in self.libros if libro.es_largo()]
-  
-  def  titulos_disponibles(self):
-    return [libro.titulo for libro in self.libros]
+> Definí el método `titulos_disponibles` en la clase `Biblioteca` que nos permita obtener los títulos de todos sus `libros`.

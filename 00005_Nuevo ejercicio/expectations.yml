@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Biblioteca
+  inspection: DeclaresMethod:titulos_disponibles
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Biblioteca
+  inspection: DeclaresComputationWithArity1:titulos_disponibles
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: titulos_disponibles
+  inspection: Not:UsesForeach
