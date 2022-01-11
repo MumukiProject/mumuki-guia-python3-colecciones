@@ -1,6 +1,6 @@
 ¿Te acordás de las listas por comprensión? :eyes:
 
-Por si acaso repasémoslas. Las listas por comprensión son una herramienta que nos permite hacer mapeos y/o filtrados sobre una lista. Por ejemplo, si quisiéramos obtener el doble de los números mayores a 5 de una lista `numeros` podríamos hacer:
+Por si acaso repasémoslas. Las listas por comprensión son una herramienta que nos permite hacer mapeos y/o filtrados sobre una lista. Por ejemplo, si quisiéramos obtener el doble de los números mayores a 5 de una lista de `numeros` podríamos hacer:
 
 ```python
 [numero * 2 for numero in numeros if numero > 5]
