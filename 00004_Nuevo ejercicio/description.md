@@ -1,13 +1,11 @@
-Hacer un método que filtre sobre esa lista de instancias con listas por comprensión.
+¿Te acordás de las listas por comprensión? :eyes:
 
-# Ejercicio 4
+Por si acaso repasémoslas. Las listas por comprensión son una herramienta que nos permite hacer mapeos y/o filtrados sobre una lista. Por ejemplo, si quisiéramos obtener el doble de los números mayores a 5 de una lista `numeros` podríamos hacer:
 
-class Biblioteca:
-  def __init__(self):
-    self.libros = []
+```python
+[numero * 2 for numero in numeros if numero > 5]
+```
 
-  def agregar_libro(self, libro):
-    self.libros.append(libro)
+Habiendo recordado esto, vamos a obtener los libros largos de una biblioteca.
 
-  def libros_largos(self):
-    return [libro for libro in self.libros if libro.es_largo()]
+> Definí el método `libros_largos` dentro de la clase `Biblioteca` que, utilizando listas por comprensión, nos diga cuáles son sus libros largos.

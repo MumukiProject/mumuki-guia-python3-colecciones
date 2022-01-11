@@ -1,0 +1,1 @@
+En este caso no hace falta mapear, solo filtrar. :wink:
