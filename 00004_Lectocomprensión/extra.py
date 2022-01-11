@@ -1,3 +1,12 @@
+class Libro:
+  def __init__(self, un_titulo, cant_paginas, un_genero):
+    self.titulo = un_titulo
+    self.paginas = cant_paginas
+    self.genero = un_genero
+    
+  def es_largo(self):
+    return self.paginas > 300
+
 un_libro_corto = Libro("Socorro", 299, "Terror")
 segundo_libro_corto = Libro("Fundación", 300, "Ciencia ficción")
 tercer_libro_corto = Libro("Historias de cronopios y de famas", 153, "Cuento y novela")
