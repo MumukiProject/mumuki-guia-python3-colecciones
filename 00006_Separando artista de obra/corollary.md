@@ -1,0 +1,1 @@
+Ahora que tenemos un modelado más completo podemos instanciar algunos objetos, ¿no? :thinking:
