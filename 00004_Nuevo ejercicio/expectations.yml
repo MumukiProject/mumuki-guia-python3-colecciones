@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Biblioteca
+  inspection: DeclaresMethod:libros_largos
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Biblioteca
+  inspection: DeclaresComputationWithArity1:libros_largos
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: libros_largos
+  inspection: Not:UsesForeach
