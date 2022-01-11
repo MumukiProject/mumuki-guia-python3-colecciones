@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
+  inspection: DeclaresComputationWithArity5:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
+  inspection: DeclaresMethod:nacionalidad
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Libro
+  inspection: DeclaresComputationWithArity1:nacionalidad
