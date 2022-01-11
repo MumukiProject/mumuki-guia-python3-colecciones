@@ -1,4 +1,4 @@
-  
+class Test(unittest.TestCase):
   def setUp(self):
     un_libro_corto = Libro("Socorro", 299, "Terror")
     segundo_libro_corto = Libro("Fundación", 300, "Ciencia ficción")
