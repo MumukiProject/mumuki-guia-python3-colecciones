@@ -10,3 +10,10 @@
     biblioteca = Biblioteca()
     biblioteca.libros = [un_libro_largo, segundo_libro_largo, tercer_libro_largo, un_libro_corto, cuarto_libro_largo]
     self.assertEqual(biblioteca.titulos_disponibles(), ["Curtis Biología", "El nudo de la conciencia", "La insoportable levedad del ser", "Socorro", "El hobbit"])
+
+  def test_Si_a_una_biblioteca_con_dos_libros_le_enviamos_el_mensaje_titulos_disponibles_obtenemos_el_titulo_de_esos_libros(self):
+    un_libro_corto = Libro("Socorro", 299, "Terror")
+    segundo_libro_corto = Libro("Fundación", 300, "Ciencia ficción")
+    biblioteca = Biblioteca()
+    biblioteca.libros = [un_libro_corto, segundo_libro_corto]
+    self.assertEqual(biblioteca.titulos_disponibles(), ["Socorro", "Fundación"])
