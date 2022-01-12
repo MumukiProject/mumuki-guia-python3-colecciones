@@ -1,0 +1,1 @@
+Ahora que conocimos los sets podríamos usarlos para solucionar el problema de los libros repetidos en las bibliotecas sin necesidad de un `if`, ¿no? :muscle:
