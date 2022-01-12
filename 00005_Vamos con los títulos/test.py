@@ -17,3 +17,7 @@
     biblioteca = Biblioteca()
     biblioteca.libros = [un_libro_corto, segundo_libro_corto]
     self.assertEqual(biblioteca.titulos_disponibles(), ["Socorro", "Fundación"])
+    
+  def test_Si_a_una_biblioteca_vacía_le_enviamos_el_mensaje_titulos_disponibles_obtenemos_una_lista_vacía(self):
+    biblioteca = Biblioteca()
+    self.assertEqual(biblioteca.titulos_disponibles(), [])
