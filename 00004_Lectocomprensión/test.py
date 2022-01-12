@@ -18,7 +18,6 @@
     biblioteca.libros = [self.un_libro_largo, self.segundo_libro_largo, self.tercer_libro_largo, self.un_libro_corto, self.cuarto_libro_largo]
     self.assertEqual(biblioteca.libros_largos(), [self.un_libro_largo, self.segundo_libro_largo, self.tercer_libro_largo, self.cuarto_libro_largo])
     
-    
   def test_Si_a_una_biblioteca_con_ningún_libro_largos_le_enviamos_el_mensaje_libros_largos_nos_retorna_una_lista_vacía(self):
     un_libro_corto = Libro("Socorro", 299, "Terror")
     segundo_libro_corto = Libro("Fundación", 300, "Ciencia ficción")
