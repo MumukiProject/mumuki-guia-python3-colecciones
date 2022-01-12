@@ -1,15 +1,6 @@
-Ejercicio para hacer varias instanciaciones de estos objetos con las estructuras de datos
+Ahora que tenemos nuestras estructuras definidas podemos empezar a crear algunos objetos :clap:. Vamos a modelar la biblioteca de Ofelia que por ahora tiene dos libros:
 
-# Ejercicio 7
+* El libro Contacto de ciencia ficción que tiene 400 páginas y fue escrito por el estadounidense Carl Sagan.
+* El libro de terror de la autora argentina Elsa Bornemann llamado Socorro que tiene 250 páginas.
 
-carl_sagan = {"nombre": "Carl", "apellido": "Sagan", "nacionalidad": "Estados Unidos" }
-contacto = Libro("Contacto", 400, "Ciencia Ficción", carl_sagan)
-
-elsa_bornemann = {"nombre": "Elsa", "apellido": "Bornemann", "nacionalidad": "Argentina" }
-socorro = Libro("Socorro", 250, "Terror", elsa_bornemann)
-
-biblioteca_de_ofelia = Biblioteca()
-biblioteca_de_ofelia.agregar_libro(contacto)
-biblioteca_de_ofelia.agregar_libro(socorro)
-
-
+> Definí la `biblioteca_de_emma` y agregale los libros `contacto` y `socorro`. 

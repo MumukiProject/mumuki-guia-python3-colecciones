@@ -1,0 +1,1 @@
+Recordá que la `nacionalidad` de cada artista es su país. Por ejemplo, si tuviésemos una artista chilena, su `nacionalidad` sería `"Chile"`. :flag_cl:
