@@ -9,4 +9,4 @@
     cuarto_libro_largo = Libro("El hobbit", 310, "Novela")
     biblioteca = Biblioteca()
     biblioteca.libros = [un_libro_largo, segundo_libro_largo, tercer_libro_largo, un_libro_corto, cuarto_libro_largo]
-    self.assertEqual(biblioteca.titulos_disponibles(), ["Curtis Biologia", "El nudo de la conciencia", "La insoportable levedad del ser", "Socorro", "El hobbit"])
+    self.assertEqual(biblioteca.titulos_disponibles(), ["Curtis Biología", "El nudo de la conciencia", "La insoportable levedad del ser", "Socorro", "El hobbit"])
