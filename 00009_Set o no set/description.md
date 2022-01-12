@@ -28,6 +28,8 @@ Dado el siguiente código…
 ム un_set.remove(4)
 ム un_set
 ム un_set.clear()
+ム un_set
 ム un_set.add(5)
+ム un_set
 ```
 > ¿Te imaginás que pasará en cada caso? :thought_balloon:
