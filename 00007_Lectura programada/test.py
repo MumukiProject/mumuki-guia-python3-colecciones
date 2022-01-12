@@ -1,9 +1,9 @@
 
   def test_la_biblioteca_de_emma_tiene_los_libros_contacto_y_socorro(self):
-    self.assertEqual(biblioteca_de_emma.libros, [conctacto, socorro])
+    self.assertEqual(biblioteca_de_emma.libros, [contacto, socorro])
   
   def test_contacto_tiene_de_titulo_contacto(self):
-    self.asserEqual(contacto.titulo.lower(), "contacto")
+    self.assertEqual(contacto.titulo.lower(), "contacto")
     
   def test_contacto_tiene_400_paginas(self):
     self.assertEqual(contacto.paginas, 400)
