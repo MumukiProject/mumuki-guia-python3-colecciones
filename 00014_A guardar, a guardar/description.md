@@ -1,4 +1,4 @@
-Ahora que tenemos los juguetes solo nos resta modelar a las jugueterías :hugging:. De ellas sabemos qué:
+Ahora que tenemos los juguetes solo nos resta modelar a las jugueterías :bear:. De ellas sabemos qué:
 
 * tienen una lista de `productos` que inicialmente está vacía;
 * entienden el mensaje `adquirir_producto` que agrega un producto a esa colección;
