@@ -10,7 +10,7 @@ Las tuplas se pueden representar de tres formas:
 ```python
 ム tupla_1 = ("Violeta", "Amarillo")
 ム tupla_2 = "Naranja", "Azul"
-ム tupla_3 = tuple(22, 22, True)
+ム tupla_3 = tuple((22, 22, True))
 ```
 
 > Veamos qué podemos hacer (y qué no) probando lo siguiente en la consola:
