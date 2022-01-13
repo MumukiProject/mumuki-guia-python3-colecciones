@@ -15,7 +15,7 @@ De esta forma estamos obteniendo las dos estaciones pero solo estamos retornando
 
 ¡Ahora te toca a vos!
 
-> Definí en la clase `Persona`, el método `inciales` que nos retorne una tupla con la primera letra del nombre, la primera letra del segundo nombre y la letra del apellido.
+> Definí en la clase `Persona`, el método `iniciales` que nos retorne una tupla con la primera letra del nombre, la primera letra del segundo nombre y la letra del apellido.
 >
 ```python
 ム borges = Persona("Jorge", "Luis", "Borges")
