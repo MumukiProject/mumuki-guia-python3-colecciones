@@ -9,5 +9,6 @@ teacher_info: ''
 manual_evaluation: false
 choices: []
 goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  kind: last_query_fails
+  kind: last_query_equals
+  value: tupla_3[2] = False
 name: No va a cambiar

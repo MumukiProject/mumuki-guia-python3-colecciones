@@ -23,6 +23,7 @@ Las tuplas se pueden representar de tres formas:
 ム tupla_3[2]
 ム tupla_2[2]
 ム len(tupla_1)
+ム len(tupla_2)
 ム len(tupla_3)
 ム tupla_3[2] = False
 ```
