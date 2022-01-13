@@ -1,0 +1,1 @@
+¿Y en casos me puede ser útil una tupla? :thinking:
