@@ -1,0 +1,20 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Juguete
+  inspection: DeclaresMethod:es_barato
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Juguete
+  inspection: DeclaresMethod:precios_con_iva
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Juguete
+  inspection: DeclaresMethod:es_apto_para_todo_publico
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Juguete
+  inspection: DeclaresComputationWithArity1:es_barato
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Juguete
+  inspection: DeclaresComputationWithArity1:precios_con_iva
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Juguete
+  inspection: DeclaresComputationWithArity1:es_apto_para_todo_publico
