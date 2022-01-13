@@ -10,4 +10,4 @@ manual_evaluation: false
 choices: []
 goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_fails
-name: Nuevo ejercicio
+name: No va a cambiar
