@@ -3,7 +3,7 @@ Para ir terminando esta lección vamos a jugar un poco. Bah, en realidad no, per
 De estos juguetes sabremos el nombre, su precio minorista, su precio mayorista y las partes que lo componen. Estas partes estarán representadas por un set de diccionarios donde cada diccionario está compuesto por el nombre de una pieza y el tamaño que tiene. Por ejemplo:
 
 ```python
-autito = Juguete("Relámpago marquinhos", 400, 300, set([{"pieza": "carcaza", "tamaño": "grande"}, {"pieza": "rueda_1", "tamaño": "chica"}, {"pieza": "rueda_2", "tamaño": "chica"}, {"pieza": "rueda_3", "tamaño": "chica"}, {"pieza": "rueda_4", "tamaño": "chica"}])
+autito = Juguete("Relámpago Marquinhos", 400, 300, set([{"pieza": "carcaza", "tamaño": "grande"}, {"pieza": "rueda_1", "tamaño": "chica"}, {"pieza": "rueda_2", "tamaño": "chica"}, {"pieza": "rueda_3", "tamaño": "chica"}, {"pieza": "rueda_4", "tamaño": "chica"}])
 ```
 
 Si bien la clase ya está creada con su constructor debemos definir algunos métodos:
