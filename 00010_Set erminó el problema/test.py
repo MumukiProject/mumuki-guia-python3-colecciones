@@ -12,17 +12,21 @@
     biblioteca = Biblioteca()
     self.assertEqual(biblioteca.libros, set())
     
-  def test_Si_a_una_biblioteca_con_tres_libros_largos_le_enviamos_el_mensaje_libros_largos_nos_retorna_esos_tres_libros(self):
+  def test_si_una_biblioteca_recibe_el_mensaje_agregar_libro_se_agrega_un_libro_a_sus_libros_si_no_lo_tiene(self):
     biblioteca = Biblioteca()
-    biblioteca.libros = [self.un_libro_largo, self.segundo_libro_largo, self.tercer_libro_largo, self.un_libro_corto]
-    self.assertEqual(biblioteca.libros_largos(), [self.un_libro_largo, self.segundo_libro_largo, self.tercer_libro_largo])
-    
-  def test_Si_a_una_biblioteca_con_cuatro_libros_largos_le_enviamos_el_mensaje_libros_largos_nos_retorna_esos_cuatro_libros(self):
+    biblioteca.agregar_libro(self.levedad)
+    self.assertEqual(biblioteca.libros, [self.levedad])
+
+  def test_si_una_biblioteca_recibe_el_mensaje_agregar_libro_dos_veces_se_agregan_dos_libros_a_sus_libros_si_no_los_tiene(self):
     biblioteca = Biblioteca()
-    biblioteca.libros = [self.un_libro_largo, self.segundo_libro_largo, self.tercer_libro_largo, self.un_libro_corto, self.cuarto_libro_largo]
-    self.assertEqual(biblioteca.libros_largos(), [self.un_libro_largo, self.segundo_libro_largo, self.tercer_libro_largo, self.cuarto_libro_largo])
-    
-  def test_Si_a_una_biblioteca_con_ningún_libro_largos_le_enviamos_el_mensaje_libros_largos_nos_retorna_una_lista_vacía(self):
+    biblioteca.agregar_libro(self.socorro)
+    biblioteca.agregar_libro(self.como_agua)
+    self.assertEqual(biblioteca.libros, [self.socorro, self.como_agua])
+
+  def test_si_una_biblioteca_recibe_el_mensaje_agregar_libro_no_hace_nada_si_ya_tiene_el_libro(self):
     biblioteca = Biblioteca()
-    biblioteca.libros = [self.un_libro_corto, self.segundo_libro_corto, self.tercer_libro_corto]
-    self.assertEqual(biblioteca.libros_largos(), [])
+    biblioteca.agregar_libro(self.cronopios)
+    biblioteca.agregar_libro(self.como_agua)
+    self.assertEqual(biblioteca.libros, [self.cronopios, self.como_agua])
+    biblioteca.agregar_libro(self.cronopios)
+    self.assertEqual(biblioteca.libros, [self.cronopios, self.como_agua])
