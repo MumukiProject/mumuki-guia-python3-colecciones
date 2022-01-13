@@ -26,5 +26,3 @@
     self.assertEqual(biblioteca.libros, [self.cronopios, self.como_agua])
     biblioteca.agregar_libro(self.cronopios)
     self.assertEqual(biblioteca.libros, [self.cronopios, self.como_agua])
-
-    
