@@ -1,1 +1,0 @@
-En este caso no vamos a hacer un método dentro de una clase sino una función como las que hicimos anteriormente. Pero en el próximo ejercicio volvemos a nuestra programación habitual. :tv:

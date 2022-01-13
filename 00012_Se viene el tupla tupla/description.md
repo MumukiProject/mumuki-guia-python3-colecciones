@@ -1,22 +1,24 @@
-El uso más común de las tuplas es cuando queremos retornar más de una cosa y sabemos exactamente cuántas. Recordemos que las funciones solo retornan un valor, pero ¿y si ese valor es una tupla? :wink:
+El uso más común de las tuplas es cuando queremos retornar más de una cosa y sabemos exactamente cuántas. Recordemos que las funciones o los métodos con retorno solo pueden retornar un valor, pero ¿y si ese valor es una tupla? :wink:
 
-Veámoslo con un ejemplo para que sea más claro. Supongamos que tenemos una función que a partir de una palabra nos diga cuál es su primera y su última letra. La misma podría estar definida de esta forma:
+Veámoslo con un ejemplo para que sea más claro. Supongamos que tenemos una clase `Radio` con un método que nos dice cual es la estación anterior y cuál la siguiente que puede sintonizar. La misma podría estar definida de esta forma:
 
 ```python
-def primera_y_última_letra(palabra):
-	return (palabra[0], palabra[len(palabra) - 1])
+class Radio:
+	def __init__(self, estacion):
+		self.estacion_actual = estacion
+
+	def anterior_y_siguiente(self):
+		return (self.estacion_actual - 0.2, self.estacion_actual + 0.2)
 ```
 
-De esta forma estamos obteniendo la primera letra y la última pero solo estamos retornando un valor ¡la tupla compuesta por esas dos letras! :raised_hands:
+De esta forma estamos obteniendo las dos estaciones pero solo estamos retornando un valor ¡una tupla! :raised_hands:
 
 ¡Ahora te toca a vos!
 
-> Definí una función `anterior_y_siguiente` que a partir de un número entero retorne una tupla con el número anterior y el número siguiente:
+> Definí en la clase `Persona`, el método `inciales` que nos retorne una tupla con la primera letra del nombre, la primera letra del segundo nombre y la letra del apellido.
 >
 ```python
-ム anterior_y_siguiente(8)
-(7, 9)
->
-ム anterior_y_siguiente(4)
-(3, 5)
+ム borges = Persona("Jorge", "Luis", "Borges)
+ム borges.iniciales()
+("J", "L", "B")
 ````
