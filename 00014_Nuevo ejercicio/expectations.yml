@@ -1,0 +1,23 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresClass:Jugueteria
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Jugueteria
+  inspection: DeclaresMethod:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Jugueteria
+  inspection: DeclaresMethod:adquirir_producto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Jugueteria
+  inspection: DeclaresMethod:catalogo_de_oferta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Jugueteria
+  inspection: DeclaresComputationWithArity1:__init__
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Jugueteria
+  inspection: DeclaresComputationWithArity2:adquirir_producto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Jugueteria
+  inspection: DeclaresComputationWithArity1:catalogo_de_oferta
