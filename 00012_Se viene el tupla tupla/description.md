@@ -21,4 +21,4 @@ De esta forma estamos obteniendo las dos estaciones pero solo estamos retornando
 ム borges = Persona("Jorge", "Luis", "Borges)
 ム borges.iniciales()
 ("J", "L", "B")
-````
+```
