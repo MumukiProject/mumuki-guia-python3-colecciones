@@ -19,7 +19,7 @@
   def test_precios_con_iva_de_un_juguete_con_precio_minorista_900_y_mayorista_700_retorna_la_tupla_con_1089_y_847(self):
     self.assertEqual(self.auto.precios_con_iva(), (1089, 847))
   
-   def test_un_juguete_que_tiene_bateria_es_electronico(self):
+  def test_un_juguete_que_tiene_bateria_es_electronico(self):
     self.assertTrue(self.buzz.es_electronico())
     
   def test_un_juguete_que_no_tiene_bateria_no_es_electronico(self):
