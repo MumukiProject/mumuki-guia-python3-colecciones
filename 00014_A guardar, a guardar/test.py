@@ -22,8 +22,8 @@
 
   def test_el_catalogo_de_oferta_de_una_jugueteria_retorna_los_nombres_de_los_productos_baratos_de_la_lista(self):
     jugueteria = Jugueteria()
-    jugueteria.adquirir_producto(self.buzz)
     jugueteria.adquirir_producto(self.auto)
+    jugueteria.adquirir_producto(self.buzz)
     jugueteria.adquirir_producto(self.pizarra_magica)
     self.assertEqual(jugueteria.catalogo_de_oferta(), ["Auto control remoto", "Buzz Lightyear"])
 
