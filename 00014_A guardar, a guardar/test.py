@@ -25,14 +25,14 @@
     jugueteria.adquirir_producto(self.buzz)
     jugueteria.adquirir_producto(self.auto)
     jugueteria.adquirir_producto(self.pizarra_magica)
-    self.assertEqual(jugueteria.productos, ["Auto control remoto", "Buzz Lightyear"])
+    self.assertEqual(jugueteria.catalogo_de_oferta(), ["Auto control remoto", "Buzz Lightyear"])
 
   def test_el_catalogo_de_oferta_de_una_jugueteria_retorna_la_lista_vacia_si_no_tiene_productos(self):
     jugueteria = Jugueteria()
-    self.assertEqual(jugueteria.productos, [])
+    self.assertEqual(jugueteria.catalogo_de_oferta(), [])
 
   def test_el_catalogo_de_oferta_de_una_jugueteria_retorna_la_lista_vacia_si_ningun_producto_es_barato(self):
     jugueteria = Jugueteria()
     jugueteria.adquirir_producto(self.pizarra_magica)
     jugueteria.adquirir_producto(self.muneca)
-    self.assertEqual(jugueteria.productos, [])
+    self.assertEqual(jugueteria.catalogo_de_oferta(), [])
