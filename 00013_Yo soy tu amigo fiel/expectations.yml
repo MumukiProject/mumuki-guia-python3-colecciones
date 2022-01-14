@@ -8,7 +8,7 @@ expectations:
   inspection: DeclaresMethod:precios_con_iva
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Juguete
-  inspection: DeclaresMethod:es_apto_para_todo_publico
+  inspection: DeclaresMethod:es_electronico
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Juguete
   inspection: DeclaresComputationWithArity1:es_barato
@@ -17,7 +17,7 @@ expectations:
   inspection: DeclaresComputationWithArity1:precios_con_iva
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: Juguete
-  inspection: DeclaresComputationWithArity1:es_apto_para_todo_publico
+  inspection: DeclaresComputationWithArity1:es_electronico
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: Except:HasRedundantIf
