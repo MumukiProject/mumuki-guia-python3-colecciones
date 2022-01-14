@@ -5,7 +5,7 @@ De estos juguetes sabremos el nombre, su precio minorista, su precio mayorista y
 ```python
 autito = Juguete("Relámpago Marquinhos", 400, 300, set(["ruedas", "carcaza", "batería"])
 
-muñeco = Juguete("Muñeco con ropa", 500, 420, set(["cuerpo", "ropa", "mamadera"]))
+muñeco = Juguete("Muñeco con mamadera", 500, 420, set(["cuerpo", "ropa", "mamadera"]))
 ```
 
 Si bien la clase ya está creada con su constructor debemos definir algunos métodos:
