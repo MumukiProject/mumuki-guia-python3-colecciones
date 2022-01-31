@@ -1,1 +1,1 @@
-¿Y en casos me puede ser útil una tupla? :thinking:
+¿Y en qué casos me puede ser útil una tupla? :thinking:

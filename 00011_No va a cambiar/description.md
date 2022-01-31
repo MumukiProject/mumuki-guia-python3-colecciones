@@ -1,4 +1,4 @@
-Ya vimos 3 tipos de colecciones: las listas, los diccionarios y los sets. Solo nos queda uno por ver, las **tuplas**. Las tuplas son similares a las listas pero tienen una particularidad, son inmutables. En criollo, las tuplas no se pueden modificar por lo que:
+Ya conocimos tres tipos de colecciones: las listas, los diccionarios y los sets. Solo nos queda uno por descubrir, las **tuplas**. Las tuplas son similares a las listas pero tienen una particularidad, son inmutables. En criollo, las tuplas no se pueden modificar por lo que:
 
 * no podemos agregarles ni quitarles elementos;
 * no podemos modificar el valor de sus elementos.
