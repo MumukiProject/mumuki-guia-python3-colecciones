@@ -1,1 +1,1 @@
-Ya se está terminando la lección, practiquemos todo lo que vimos resolviendo dos ejercicios más. :nerd:
+Ya se está terminando la lección, practiquemos todo lo que aprendimos resolviendo dos ejercicios más. :nerd:
