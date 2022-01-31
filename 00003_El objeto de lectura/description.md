@@ -1,4 +1,4 @@
-Por lo que vimos en el ejercicio anterior, los libros son strings. Lamentablemente, esto limita bastante nuestro modelado y las cosas que podemos hacer con ellos. :cry:
+Por lo que hicimos en el ejercicio anterior, los libros son strings. Lamentablemente, esto limita bastante nuestro modelado y las cosas que podemos hacer con ellos. :cry:
 
 Por este motivo queremos crear la clase `Libro` :books:, para poder saber no sólo su `titulo` sino también su cantidad de `paginas` y el `genero`. En ese caso, el ejemplo del ejercicio anterior quedaría así:
 
