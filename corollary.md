@@ -1,3 +1,3 @@
-A lo largo de esta lección vimos cuáles son los distintos tipos de colecciones que nos ofrece Python: listas, diccionarios, sets y tuplas. Repasamos las dos primeras, ya vistas anteriormente en este recorrido, y conocimos a las últimas dos. :thumbsup:
+En esta lección trabajamos con los distintos tipos de colecciones que nos ofrece Python: listas, diccionarios, sets y tuplas. Repasamos las dos primeras, ya usadas anteriormente en este recorrido, y conocimos las últimas dos. :thumbsup:
 
-También vimos en qué se parecen y en qué se diferencian, para qué utilizamos cada una y ejemplos de qué podemos modelar con cada una de ellas. :grin:
+También aprendimos en qué se parecen y en qué se diferencian, para qué utilizamos cada una y ejemplos de qué podemos modelar con cada una de ellas. :grin:
