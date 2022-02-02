@@ -1,11 +1,11 @@
-Hasta acá vimos dos tipos de colecciones, las listas y los diccionarios. Vamos a conocer los **sets** (en castellano conjuntos).
+Hasta acá usamos dos tipos de colecciones, las listas y los diccionarios. Ahora vamos a conocer los **sets** (en castellano conjuntos).
 
-Los sets son muy parecidos a las listas pero tienen dos particularidades que los diferencian:
+Los sets son muy parecidos a las listas, pero tienen dos particularidades que los diferencian:
 
 * no tienen elementos repetidos;
 * sus elementos no están ordenados.
 
-¡Vamos a verlos en acción! :nerd:
+¡Vamos a probarlos en acción! :nerd:
 
 Dado el siguiente código…
 
