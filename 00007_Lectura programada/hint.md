@@ -1,1 +1,1 @@
-Recordá que la `nacionalidad` de quien escribe un libro es su país. Por ejemplo, si tuviésemos una escritora chilena, su `nacionalidad` sería `"Chile"`. :flag_cl:
+Recordá que el atributo ´autoria´ cuenta con los campos `nombre`, `apellido` y `nacionalidad`. Este último campo se refiere al país dónde nació quién escribió el libro. Por ejemplo, si tuviésemos una escritora chilena, su `nacionalidad` sería `"Chile"`. :flag_cl:
