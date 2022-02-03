@@ -13,13 +13,13 @@
     self.assertTrue(genero == 'ciencia ficcion' or genero == 'ciencia ficción', "El género de contacto debería ser ciencia ficción")
     
   def test_el_escritor_de_contacto_se_llama_carl(self):
-    self.assertEqual(contacto.artista["nombre"].lower(), "carl")
+    self.assertEqual(contacto.autoria["nombre"].lower(), "carl")
     
   def test_el_escritor_de_contacto_se_apellida_sagan(self):
-    self.assertEqual(contacto.artista["apellido"].lower(), "sagan")
+    self.assertEqual(contacto.autoria["apellido"].lower(), "sagan")
     
   def test_el_escritor_de_contacto_es_de_estados_unidos(self):
-    self.assertEqual(contacto.artista["nacionalidad"].lower(), "estados unidos")
+    self.assertEqual(contacto.autoria["nacionalidad"].lower(), "estados unidos")
   
   def test_socorro_tiene_de_titulo_socorro(self):
     self.assertEqual(socorro.titulo.lower(), "socorro")
@@ -31,10 +31,10 @@
     self.assertEqual(socorro.genero.lower(), "terror")
     
   def test_la_escritora_de_socorro_se_llama_elsa(self):
-    self.assertEqual(socorro.artista["nombre"].lower(), "elsa")
+    self.assertEqual(socorro.autoria["nombre"].lower(), "elsa")
     
   def test_la_escritora_de_socorro_se_apellida_bornemann(self):
-    self.assertEqual(socorro.artista["apellido"].lower(), "bornemann")
+    self.assertEqual(socorro.autoria["apellido"].lower(), "bornemann")
     
   def test_la_escritora_de_socorro_es_de_argentina(self):
-    self.assertEqual(socorro.artista["nacionalidad"].lower(), "argentina")
+    self.assertEqual(socorro.autoria["nacionalidad"].lower(), "argentina")
