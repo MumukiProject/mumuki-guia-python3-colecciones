@@ -1,7 +1,7 @@
 
   def test_si_creo_un_nuevo_Libro_le_puedo_especificar_su_autoria(self):
     un_libro = Libro("Socorro", 250, "Terror", {"nombre": "Elsa", "apellido": "Bornemann", "nacionalidad": "Argentina" })
-    self.assertEqual(un_libro.artista, {"nombre": "Elsa", "apellido": "Bornemann", "nacionalidad": "Argentina" })
+    self.assertEqual(un_libro.autoria, {"nombre": "Elsa", "apellido": "Bornemann", "nacionalidad": "Argentina" })
    
   def test_un_libro_con_una_escritora_de_argentina_tiene_nacionalidad_argentina(self):
     un_libro = Libro("Socorro", 299, "Terror", {"nombre": "Elsa", "apellido": "Bornemann", "nacionalidad": "Argentina" })
