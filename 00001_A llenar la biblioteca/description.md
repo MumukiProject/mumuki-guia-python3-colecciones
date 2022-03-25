@@ -13,4 +13,8 @@ Queremos modelar bibliotecas con sus libros. Sabemos que al instanciar una bibli
 ["La insoportable levedad del ser", "Contacto", "Historias de cronopios y de famas"]
 ```
 
+Y al hacerlo, nuestro diagrama de objetos quedará de esta forma:
+
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-colecciones/master/assets/objetos_nuevo_5_1648232546005.1.svg" alt="objetos_nuevo_5_1648232546005.1.svg" width="550px" height="auto">
+
 > Definí la clase `Biblioteca` de forma tal que entienda el mensaje `agregar_libro`. No te olvides del constructor que inicialice el atributo `libros` como una lista vacía.
