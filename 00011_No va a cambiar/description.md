@@ -13,17 +13,44 @@ Las tuplas se pueden representar de tres formas:
 ム tupla_3 = tuple((22, 22, True))
 ```
 
-> Para saber qué podemos hacer (y qué no) probemos lo siguiente en la consola:
+> Para saber qué podemos hacer (y qué no) probemos lo siguiente en la consola en orden:
 >
-```python
-ム tupla_1
-ム tupla_2
-ム tupla_3
-ム tupla_1[0]
-ム tupla_3[2]
-ム tupla_2[2]
-ム len(tupla_1)
-ム len(tupla_2)
-ム len(tupla_3)
-ム tupla_3[2] = False
+>```python
+ムtupla_1
+```
+>
+>```python
+ムtupla_2
+```
+>
+>```python
+ムtupla_3
+```
+>
+>```python
+ムtupla_1[0]
+```
+>
+>```python
+ムtupla_3[2]
+```
+>
+>```python
+ムtupla_2[2]
+```
+>
+>```python
+ムlen(tupla_1)
+```
+>
+>```python
+ムlen(tupla_2)
+```
+>
+>```python
+ムlen(tupla_3)
+```
+>
+>```python
+ムtupla_3[2] = False
 ```
