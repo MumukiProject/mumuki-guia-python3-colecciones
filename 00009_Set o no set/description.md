@@ -18,54 +18,54 @@ Dado el siguiente código…
 > … probá en la consola lo siguiente en orden:
 >
 >``` python
-ム set_vacio
+ムset_vacio
 ```
 >
 >``` python
-ム un_set
+ムun_set
 ```
 >
 >``` python
-ム otro_set
+ムotro_set
 ```
 >
 >``` python
-ム otro_set.issubset(un_set)
+ムotro_set.issubset(un_set)
 ```
 >
 >``` python
-ム un_set.issubset(otro_set)
+ムun_set.issubset(otro_set)
 ```
 >
 >``` python
-ム set_vacio.add("hola")
+ムset_vacio.add("hola")
 ```
 >
 >``` python
-ム set_vacio
+ムset_vacio
 ```
 >
 >``` python
-ム un_set.remove(4)
+ムun_set.remove(4)
 ```
 >
 >``` python
-ム un_set
+ムun_set
 ```
 >
 >``` python
-ム un_set.clear()
+ムun_set.clear()
 ```
 >
 >``` python
-ム un_set
+ムun_set
 ```
 >
 >``` python
-ム un_set.add(5)
+ムun_set.add(5)
 ```
 >
 >``` python
-ム un_set
+ムun_set
 ```
 > ¿Te imaginás que pasará en cada caso? :thought_balloon:
