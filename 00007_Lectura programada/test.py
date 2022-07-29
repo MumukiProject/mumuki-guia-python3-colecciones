@@ -1,6 +1,7 @@
 
   def test_la_biblioteca_de_emma_tiene_los_libros_contacto_y_socorro(self):
-    self.assertEqual(biblioteca_de_emma.libros, [contacto, socorro])
+    self.assertTrue(socorro in biblioteca_de_emma.libros and contacto in biblioteca_de_emma.libros and len(biblioteca_de_emma.libros) == 2)
+    
   
   def test_contacto_tiene_de_titulo_contacto(self):
     self.assertEqual(contacto.titulo.lower(), "contacto")
