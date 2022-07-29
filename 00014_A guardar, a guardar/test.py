@@ -14,7 +14,7 @@
     jugueteria.adquirir_producto(self.buzz)
     self.assertEqual(jugueteria.productos, [self.buzz])
     
-  def test_cuando_la_jugueteria_adquiere_dos_productos_los_mismo_se_agregan_a_su_lista_de_productos(self):
+  def test_cuando_la_jugueteria_adquiere_dos_productos_los_mismos_se_agregan_a_su_lista_de_productos(self):
     jugueteria = Jugueteria()
     jugueteria.adquirir_producto(self.buzz)
     jugueteria.adquirir_producto(self.auto)
