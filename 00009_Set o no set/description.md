@@ -66,6 +66,10 @@ Dado el siguiente código…
 ```
 >
 >``` python
+ムun_set.add(5)
+```
+>
+>``` python
 ムun_set
 ```
 > ¿Te imaginás que pasará en cada caso? :thought_balloon:
