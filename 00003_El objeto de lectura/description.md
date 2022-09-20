@@ -16,6 +16,6 @@ Por este motivo queremos crear la clase `Libro` :books:, para poder saber no só
 
 Y su diagrama de objetos así:
 
-<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-colecciones/master/assets/objetos_nuevo-5_1648232741788.2.svg" alt="objetos_nuevo-5_1648232741788.2.svg" width="700px" height="auto">
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-colecciones/master/assets/objetos_nuevo2-18_1663684236348.svg" alt="objetos_nuevo2-18_1663684236348.svg" width="700px" height="auto">
 
 > Definí la clase `Libro` con su respectivo constructor. Los libros tienen que entender el mensaje `es_largo` que nos dice si tienen más de 300 `paginas`. ¿Y qué pasa con la clase `Biblioteca`?¿hay que cambiar algo? :eyes:
