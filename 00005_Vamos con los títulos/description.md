@@ -1,3 +1,3 @@
-Si bien cambiamos nuestros libros para que ya no sean simplemente strings sería cómodo contar con algún mensaje que nos permita obtener solo sus títulos. Por suerte, otra vez contamos con las listas por comprensión que nos pueden ayudar a resolver esta tarea. :raised_hands:
+Si bien cambiamos nuestros libros para que ya no sean simplemente strings, sería cómodo contar con algún mensaje que nos permita obtener solo sus títulos. Por suerte, otra vez contamos con las listas por comprensión que nos pueden ayudar a resolver esta tarea. :raised_hands:
 
 > Definí el método `titulos_disponibles` en la clase `Biblioteca` que nos permita obtener los títulos de todos sus `libros`.

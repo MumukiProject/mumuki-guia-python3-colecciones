@@ -11,7 +11,7 @@ class Radio:
 		return (self.estacion_actual - 0.2, self.estacion_actual + 0.2)
 ```
 
-De esta forma, estamos obteniendo las dos estaciones pero solo estamos retornando un valor ¡una tupla! :raised_hands:
+De esta forma, estamos obteniendo las dos estaciones pero solo estamos retornando un valor: ¡una tupla! :raised_hands:
 
 ¡Ahora te toca a vos!
 

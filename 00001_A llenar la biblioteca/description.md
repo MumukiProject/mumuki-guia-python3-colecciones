@@ -1,6 +1,6 @@
-Anteriormente, en este recorrido te contamos que las listas también son objetos y que entienden sus propios mensajes, ¡aprovechémoslo! :raised_hands:
+Anteriormente, en este recorrido te contamos que las listas también son objetos y que entienden sus propios mensajes. ¡Aprovechémoslo! :raised_hands:
 
-Queremos modelar bibliotecas con sus libros. Sabemos que al instanciar una biblioteca no tiene libros pero queremos poder agregarle nuevos de esta forma:
+Queremos modelar bibliotecas con sus libros. Sabemos que al instanciar una biblioteca no tiene libros, pero queremos poder agregarle nuevos de esta forma:
 
 ```python
 ム biblioteca_de_mar = Biblioteca()

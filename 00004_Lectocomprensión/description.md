@@ -8,4 +8,4 @@ Por si acaso repasémoslas. Las listas por comprensión son una herramienta que 
 
 Habiendo recordado esto, vamos a obtener los libros largos de una biblioteca.
 
-> Definí el método `libros_largos` dentro de la clase `Biblioteca` que, utilizando listas por comprensión, nos diga cuáles son sus libros largos.
+> Definí el método `libros_largos` dentro de la clase `Biblioteca` que, utilizando listas por comprensión, nos diga cuáles son sus libros largos. 

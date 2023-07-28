@@ -1,4 +1,4 @@
-¡Qué bueno! Que hayamos cambiado como representamos a los libros no significó cambios en la clase `Biblioteca` y además podemos hacer cosas más interesantes. :star_struck:
+¡Qué bueno! Haber modificado la forma en que representamos a los libros no significó cambios en la clase `Biblioteca` y, además, ahora podemos hacer cosas más interesantes. :star_struck:
 
 Nuestro diagrama de clases, luego de este cambio, es el siguiente:
 
@@ -7,6 +7,6 @@ Nuestro diagrama de clases, luego de este cambio, es el siguiente:
 Aparecieron dos nuevos elementos:
 
 * la flecha con línea continua y punta abierta nos sirve para representar la idea de atributos;
-* el asterisco, por otra parte, es para indicar que ese atributo es en realidad una lista
+* el asterisco, por otra parte, es para indicar que ese atributo es, en realidad, una lista.
 
 En nuestro caso, estamos representando que la clase `Biblioteca` tiene un atributo `libros` que es una lista de elementos de la clase `Libro`.

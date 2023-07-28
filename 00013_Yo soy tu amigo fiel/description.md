@@ -8,10 +8,10 @@ autito = Juguete("Relámpago Marquinhos", 400, 300, set(["ruedas", "carcaza", "b
 pinocho = Juguete("Pinocho", 500, 420, set(["cuerpo", "ropa", "cuerda"]))
 ```
 
-Si bien la clase ya está creada con su constructor debemos definir algunos métodos:
+Si bien la clase ya está creada con su constructor, debemos definir algunos métodos:
 
-* `es_barato` que nos dice si el `precio_minorista` es menor a 1000 y el `precio_mayorista` es menor a 600;
-* `precios_con_iva` que retorna una tupla con el precio minorista y el mayorista con su IVA (multiplicados por 1.21);
-* `es_electronico` que se cumple si tiene `"batería"` entre sus elementos.
+* `es_barato`: nos dice si el `precio_minorista` es menor a 1000 y el `precio_mayorista` es menor a 600;
+* `precios_con_iva`: retorna una tupla con el precio minorista y el mayorista con su IVA (multiplicados por 1.21);
+* `es_electronico`: se cumple si tiene `"batería"` entre sus elementos.
 
 > Definí los métodos solicitados en la clase `Juguete`.
